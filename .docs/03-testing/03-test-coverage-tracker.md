@@ -5,13 +5,15 @@
 ## auth-service
 | # | Endpoint | Integration Test | Unit Test (Service) | Trạng thái |
 |---|---|---|---|---|
-| 1 | POST /signup | ⏳ | - | Chưa làm |
-| 2 | POST /login | ⏳ | ⏳ (TokenService.createSession) | Chưa làm |
-| 3 | POST /refresh | ⏳ | ⏳ (TokenService.refresh) | Chưa làm |
-| 4 | POST /logout | ⏳ | - | Chưa làm |
-| 5 | POST /dev/register | ⏳ | - | Chưa làm |
-| 6 | POST /dev/login | ⏳ | - | Chưa làm |
-| 7 | POST /internal/validate-key | ⏳ | ⏳ (checkRateLimit) | Chưa làm |
+| 1 | GET /api/auth/user/me | ✅ Pass | - | Hoàn thành |
+| 2 | POST /api/auth/user/signup | ✅ Pass | - | Hoàn thành (Gặp lỗi mapping `userId` - Đã báo cáo) |
+| 3 | POST /api/auth/user/login | ✅ Pass | ✅ Pass (TokenService.createSession) | Hoàn thành |
+| 4 | POST /api/auth/user/refresh | ✅ Pass | ✅ Pass (TokenService.refresh) | Hoàn thành |
+| 5 | POST /api/auth/user/logout | ✅ Pass | - | Hoàn thành |
+| 6 | POST /api/auth/dev/register | ✅ Pass | - | Hoàn thành |
+| 7 | POST /api/auth/dev/login | ✅ Pass | - | Hoàn thành |
+| 8 | GET /api/auth/dev/test-limit | ✅ Pass | - | Hoàn thành |
+| 9 | POST /api/auth/internal/validate-key | ✅ Pass | ✅ Pass (checkRateLimit) | Hoàn thành |
 
 ## anime-catalog-service
 | # | Endpoint | Integration Test | Unit Test (Service) | Trạng thái |

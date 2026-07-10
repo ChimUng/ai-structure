@@ -39,11 +39,11 @@ mvn clean install -DskipTests                     # build 1 service
 - Xem ví dụ đầy đủ tại `docs/00-project-init/02-coding-conventions.md`.
 
 ## 5. Kiến trúc & Index tài liệu (Progressive Disclosure)
-Chi tiết KHÔNG nằm ở đây — luôn tra `docs/` trước khi code:
-- Giao tiếp REST/Kafka, API Gateway → `docs/01-system-design/`
-- Chi tiết từng service → `docs/02-backend/<service-name>/`
-- Testing strategy → `docs/03-testing/`
-- Deploy/Docker/CI → `docs/04-deployment/`
+Chi tiết KHÔNG nằm ở đây — luôn tra `.docs/` trước khi code:
+- Giao tiếp REST/Kafka, API Gateway → `.docs/01-system-design/`
+- Chi tiết từng service → `.docs/02-backend/<service-name>/`
+- Testing strategy → `.docs/03-testing/`
+- Deploy/Docker/CI → `.docs/04-deployment/`
 - Đặc tả tính năng đầy đủ → `PROJECT_REQUIREMENTS.md`
 - Chuẩn package structure cho service mới → `PROJECT_ARCHITECTURE_TEMPLATE.md`
 
@@ -68,8 +68,13 @@ Chi tiết KHÔNG nằm ở đây — luôn tra `docs/` trước khi code:
 - `ai-search-service` và `episode-service` PHẢI dựng theo đúng `PROJECT_ARCHITECTURE_TEMPLATE.md`.
 
 ## 8. Additional Documentation
-- `docs/02-backend/auth-service/02-jwt-strategy.md`
-- `docs/02-backend/user-service/02-notification-system.md`
-- `docs/02-backend/ai-search-service/00-requirements-draft.md`
-- `docs/02-backend/episode-service/00-requirements-draft.md`
-- `docs/01-system-design/03-kafka-events.md`
+- `.docs/02-backend/auth-service/phase-01-reactive-core.md`
+- `.docs/02-backend/auth-service/phase-02-token-rotation.md`
+- `.docs/02-backend/auth-service/phase-03-security.md`
+- `.docs/02-backend/user-service/phase-01-watch-activity-tracking.md`
+- `.docs/02-backend/user-service/phase-02-favorites-and-recommendation-engine.md`
+- `.docs/02-backend/user-service/phase-03-realtime-notification-system.md`
+- `.docs/02-backend/user-service/phase-04-preferences-and-user-stats.md`
+- `.docs/02-backend/anime-catalog-service/phase-01-anilist-sync-mechanism.md`
+- `.docs/02-backend/anime-catalog-service/phase-02-core-catalog-apis-and-caching.md`
+- `.docs/02-backend/anime-catalog-service/phase-03-airing-schedule-and-kafka-events.md`

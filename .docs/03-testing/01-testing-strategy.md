@@ -1,7 +1,7 @@
 # Testing Strategy — AnimeFlix
 
 ## Nguyên tắc: Ai chạy test này?
-Tài liệu này được viết để AI (Claude Code) tự đọc, tự viết test, tự chạy `mvn test` và tự báo cáo kết quả — không yêu cầu người dùng biết viết test.
+Tài liệu này được viết để AI tự đọc, tự viết test, tự chạy `mvn test` và tự báo cáo kết quả — không yêu cầu người dùng biết viết test.
 
 ## Thứ tự ưu tiên (làm lần lượt, không nhảy cóc)
 
