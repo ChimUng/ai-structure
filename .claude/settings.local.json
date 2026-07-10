@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [],
+    "deny": []
+  },
+  "ignorePatterns": [
+    "**/target/**",
+    "**/.gradle/**",
+    "**/build/**",
+    "**/.idea/**",
+    "**/*.class",
+    "**/*.log",
+    "**/.mvn/**",
+    "**/node_modules/**",
+    "**/*.iml",
+    "**/.settings/**",
+    "**/.classpath",
+    "**/.project",
+    "**/logs/**",
+    "**/*.jar",
+    "**/*.war"
+  ]
+}
